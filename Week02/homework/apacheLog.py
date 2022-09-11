@@ -18,7 +18,7 @@ def appache_events(filename, service, term):
 
         #Append the split values to found
         if term == 'QQ':
-            found.append(sp_results[0] + " " + sp_results[4] + " " + "sent" + " " + sp_results[7] + " " + "recived")
+            found.append(sp_results[0] + " " + sp_results[2] + " " + sp_results[4] + " " + "sent" + " " + sp_results[7] + " " + "received")
         if term == 'QQOpened':
             found.append(sp_results[0] + " " + sp_results[3] + " " + sp_results[4]+ " " + sp_results[5])
 
