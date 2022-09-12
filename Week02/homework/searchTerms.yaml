@@ -1,3 +1,6 @@
+proxy:
+  QQClosed: "QQ.*.exe.*lifetime"
+  QQOpened: "QQ.*.exe.*open through proxy.*"
 apache:
-  QQ: "QQ.*.exe.*lifetime"
-  QQOpened: "QQ.*.exe.*open through proxy"
+  php: "[GET|POST].*/wordpress/wp-login.php.*,[GET|POST].*/mediawiki/index.php.*"
+  cgi: "[GET|POST].*/cgi-bin/test-cgi.*,[GET|POST].*/cgi-bin/htsearch.*"
