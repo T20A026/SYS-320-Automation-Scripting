@@ -22,7 +22,7 @@ def urlHausOpen(filename, searchTerms):
             for _ in x:
 
                 the_url = eachLine[2].replace("http","hxxp")
-                the_src = eachLine[4]
+                the_src = eachLine[-2]
                 print(
                     """
                 URL: {}
