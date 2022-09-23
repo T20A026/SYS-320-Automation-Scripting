@@ -1,6 +1,13 @@
-# A file to travers a directory recursivley, and return all its contents
-import os, argparse
+#Abijah Buttendorf, 
+# A file to travers a directory recursivley, and searches the logs it contains for entries based on a specifies option
+import os, argparse, re, sys
+import yaml
 
+try:
+    with open('searchTerms.yaml', 'r') as yf:
+        keywords = yaml.safe_load(yf)
+except EnvironmentError as e:
+    print(e.strerror)
 
 #parser
 parser = argparse.ArgumentParser(
@@ -10,25 +17,22 @@ parser = argparse.ArgumentParser(
 )
 
 
-# Add an argument to the fs.py program
+# Add an arguments to the fs.py program
 parser.add_argument("-d", "--directory", required="True", help="Directory that you want to traverse.")
+parser.add_argument("-s", "--search", required="True", help="Specify Search Terms: 'SHELL', 'SQL', 'TRV', 'CMS'")
 
 # parse the arguments
 args = parser.parse_args()
-
 rootDir = args.directory
+searchTerms = keywords[args.search]
 
 # Getting information from CMD
-# print(sysargv)
-
-# Directory Traversal
-
 # Checking if passed argument is directory
 if not os.path.isdir(rootDir):
     print("Invalid Directory => {} ".format(rootDir))
     exit()
 
-
+# Define flist for outputs
 flist = []
 
 # Crawling the specified Directory
@@ -39,38 +43,48 @@ for root, subfolders, filenames in os.walk(rootDir):
         #print(fileList)
         flist.append(fileList)
 
-def statFile(toStat):
-    # i is going to be the var, used for each metadata dumps
-    i = os.stat(toStat, follow_symlinks=False)
+def _syslog(filename,service):
 
-    # mode
-    mode = i[0]
+    #Query the Ymal for the terms specified inside
+    #Service is main, term is sub
+    terms = service
 
-    # inode
-    inode = i[1]
+    #Split the etries by the commas
+    listOfKeywords = terms.split(", ")
 
-    # uid
-    uid = i[4]
+    # Open a file 
+    with open(filename) as f:
+        #read in the file and save the output into a variable
+        contents = f.readlines()
 
-    # gid
-    gid = i[5]
+    # List of Results
+    results = []
 
-    # file size
-    fsize = i[6]
+    # loop through the list and return the entries in each line
+    for line in contents:
 
-    # access time
-    atime = i[7]
+        # Loops through keywords
+        for eachKeyword in listOfKeywords:
 
-    # modification time
-    mtime = i[8]
+            #if the line contains the keyword it is printed out
+            #if eachKeyword in line:
+            x = re.findall(r''+eachKeyword+'', line)
+
+            for found in x:
+                #Appending returned values to the results list
+                results.append(found)
+
+    #Check to see if results are present
+
+    #Sort the results
+    results = sorted(results)
+    cleanResults = []
+
+    #Print the results to the cli
+    for line in results:
+        print(line)
     
-    # ctime => windows is the birth of the file
-    # linux is the time scince last attribute change
-    ctime = i[9]
-    crtime = i[9]
-
-    print("0|{}|{}|{}|{}|{}|{}|{}|{}|{}|{}".format(toStat, inode, mode, uid, gid, fsize, atime, mtime, ctime, crtime))
-
-for eachFile in flist:
-
-    statFile(eachFile)
+    return cleanResults
+#call for _syslog
+for f in flist:
+    _syslog(f, searchTerms)
