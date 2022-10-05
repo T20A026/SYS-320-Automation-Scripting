@@ -9,7 +9,7 @@ try:
 except EnvironmentError as e:
     print(e.strerror)
 
-#parser
+# Calling parser, and adding description
 parser = argparse.ArgumentParser(
 
     description="Traverses directories and builds a forensic body file",
@@ -72,11 +72,11 @@ def _syslog(filename,service):
 
     #Check to see if results are present
 
-    #Sort the results
+    #Sort the results by alphebetical 
     results = sorted(results)
     cleanResults = []
 
-    #Print the results to the cli
+    #Print the results to the cli, in a nice format
     for line in results:
         print("""
             file: {}
