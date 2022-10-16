@@ -1,0 +1,300 @@
+### BEGIN ps -ef ###
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 10:35 ?        00:00:01 /usr/lib/systemd/systemd --switched-root --system --deserialize 28
+root           2       0  0 10:35 ?        00:00:00 [kthreadd]
+root           3       2  0 10:35 ?        00:00:00 [rcu_gp]
+root           4       2  0 10:35 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 10:35 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 10:35 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 10:35 ?        00:00:00 [rcu_tasks_kthre]
+root          11       2  0 10:35 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 10:35 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 10:35 ?        00:00:00 [ksoftirqd/0]
+root          14       2  0 10:35 ?        00:00:00 [rcu_preempt]
+root          15       2  0 10:35 ?        00:00:00 [migration/0]
+root          16       2  0 10:35 ?        00:00:00 [cpuhp/0]
+root          18       2  0 10:35 ?        00:00:00 [kdevtmpfs]
+root          19       2  0 10:35 ?        00:00:00 [netns]
+root          20       2  0 10:35 ?        00:00:00 [inet_frag_wq]
+root          21       2  0 10:35 ?        00:00:00 [kauditd]
+root          22       2  0 10:35 ?        00:00:00 [khungtaskd]
+root          23       2  0 10:35 ?        00:00:00 [oom_reaper]
+root          24       2  0 10:35 ?        00:00:00 [writeback]
+root          25       2  0 10:35 ?        00:00:00 [kcompactd0]
+root          26       2  0 10:35 ?        00:00:00 [ksmd]
+root          27       2  0 10:35 ?        00:00:00 [khugepaged]
+root          28       2  0 10:35 ?        00:00:00 [cryptd]
+root          29       2  0 10:35 ?        00:00:00 [kintegrityd]
+root          30       2  0 10:35 ?        00:00:00 [kblockd]
+root          31       2  0 10:35 ?        00:00:00 [blkcg_punt_bio]
+root          32       2  0 10:35 ?        00:00:00 [tpm_dev_wq]
+root          33       2  0 10:35 ?        00:00:00 [md]
+root          34       2  0 10:35 ?        00:00:00 [edac-poller]
+root          35       2  0 10:35 ?        00:00:00 [watchdogd]
+root          37       2  0 10:35 ?        00:00:00 [kworker/0:1H-kblockd]
+root          38       2  0 10:35 ?        00:00:00 [kswapd0]
+root          39       2  0 10:35 ?        00:00:00 [kthrotld]
+root          41       2  0 10:35 ?        00:00:00 [kworker/0:2-ata_sff]
+root          43       2  0 10:35 ?        00:00:00 [acpi_thermal_pm]
+root          45       2  0 10:35 ?        00:00:00 [kmpath_rdacd]
+root          46       2  0 10:35 ?        00:00:00 [kaluad]
+root          47       2  0 10:35 ?        00:00:00 [mld]
+root          48       2  0 10:35 ?        00:00:00 [ipv6_addrconf]
+root          49       2  0 10:35 ?        00:00:00 [kstrp]
+root          64       2  0 10:35 ?        00:00:00 [zswap-shrink]
+root         177       2  0 10:35 ?        00:00:00 [kworker/u3:0]
+root         379       2  0 10:35 ?        00:00:00 [ata_sff]
+root         380       2  0 10:35 ?        00:00:00 [scsi_eh_0]
+root         381       2  0 10:35 ?        00:00:00 [scsi_tmf_0]
+root         382       2  0 10:35 ?        00:00:00 [scsi_eh_1]
+root         383       2  0 10:35 ?        00:00:00 [scsi_tmf_1]
+root         384       2  0 10:35 ?        00:00:00 [kworker/u2:3-writeback]
+root         451       2  0 10:35 ?        00:00:00 [kdmflush/253:0]
+root         460       2  0 10:35 ?        00:00:00 [kdmflush/253:1]
+root         478       2  0 10:35 ?        00:00:00 [xfsalloc]
+root         479       2  0 10:35 ?        00:00:00 [xfs_mru_cache]
+root         480       2  0 10:35 ?        00:00:00 [xfs-buf/dm-0]
+root         481       2  0 10:35 ?        00:00:00 [xfs-conv/dm-0]
+root         482       2  0 10:35 ?        00:00:00 [xfs-cil/dm-0]
+root         483       2  0 10:35 ?        00:00:00 [xfs-reclaim/dm-]
+root         484       2  0 10:35 ?        00:00:00 [xfs-gc/dm-0]
+root         485       2  0 10:35 ?        00:00:00 [xfs-log/dm-0]
+root         486       2  0 10:35 ?        00:00:00 [xfsaild/dm-0]
+root         582       1  0 10:35 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root         595       1  0 10:35 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root         596       2  0 10:35 ?        00:00:00 [xfs-buf/sda1]
+root         597       2  0 10:35 ?        00:00:00 [xfs-conv/sda1]
+root         598       2  0 10:35 ?        00:00:00 [xfs-cil/sda1]
+root         599       2  0 10:35 ?        00:00:00 [xfs-reclaim/sda]
+root         600       2  0 10:35 ?        00:00:00 [xfs-gc/sda1]
+root         601       2  0 10:35 ?        00:00:00 [xfs-log/sda1]
+root         602       2  0 10:35 ?        00:00:00 [xfsaild/sda1]
+root         620       1  0 10:35 ?        00:00:00 /sbin/auditd
+root         642       1  0 10:35 ?        00:00:01 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+root         644       1  0 10:35 ?        00:00:00 /usr/sbin/rsyslogd -n
+root         645       1  0 10:35 ?        00:00:00 /usr/lib/systemd/systemd-logind
+chrony       650       1  0 10:35 ?        00:00:00 /usr/sbin/chronyd -F 2
+dbus         655       1  0 10:35 ?        00:00:00 /usr/bin/dbus-broker-launch --scope system --audit
+dbus         658     655  0 10:35 ?        00:00:00 dbus-broker --log 4 --controller 9 --machine-id efea4806758c4e1cb78ee22b7e70bd33 --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+root         676       1  0 10:35 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         686       1  0 10:35 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         695       1  0 10:35 ?        00:00:00 /usr/sbin/crond -n
+root         696       1  0 10:35 ?        00:00:00 login -- root
+root         730       2  0 10:35 ?        00:00:00 [ttm_swap]
+root         733       2  0 10:35 ?        00:00:00 [irq/18-vmwgfx]
+root         734       2  0 10:35 ?        00:00:00 [card0-crtc0]
+root         735       2  0 10:35 ?        00:00:00 [card0-crtc1]
+root         737       2  0 10:35 ?        00:00:00 [card0-crtc2]
+root         738       2  0 10:35 ?        00:00:00 [card0-crtc3]
+root         739       2  0 10:35 ?        00:00:00 [card0-crtc4]
+root         741       2  0 10:35 ?        00:00:00 [card0-crtc5]
+root         742       2  0 10:35 ?        00:00:00 [card0-crtc6]
+root         744       2  0 10:35 ?        00:00:00 [card0-crtc7]
+root        3910       1  0 10:36 ?        00:00:00 /usr/lib/systemd/systemd --user
+root        3912    3910  0 10:36 ?        00:00:00 (sd-pam)
+root        3919     696  0 10:36 tty1     00:00:00 -bash
+root        4068       2  0 10:36 ?        00:00:00 [kworker/u2:4-events_unbound]
+root        4103       2  0 10:43 ?        00:00:00 [kworker/u2:0-events_unbound]
+root        4105       2  0 10:44 ?        00:00:00 [kworker/0:0-events]
+root        4106     686  0 10:45 ?        00:00:00 sshd: super [priv]
+super       4111       1  0 10:45 ?        00:00:00 /usr/lib/systemd/systemd --user
+super       4113    4111  0 10:45 ?        00:00:00 (sd-pam)
+super       4120    4106  0 10:45 ?        00:00:00 sshd: super@notty
+root        4150       2  0 10:51 ?        00:00:00 [kworker/u2:1]
+root        4164       2  0 10:55 ?        00:00:00 [kworker/0:1-ata_sff]
+super       4165    4120  0 10:55 ?        00:00:00 ps -ef
+### END ps -ef ###
+
+### BEGIN netstat -an --inet ###
+
+### END netstat -an --inet ###
+
+### BEGIN last -adx ###
+
+root     tty1         Wed Oct  5 10:36   still logged in    zero.champlain.edu
+runlevel (to lvl 3)   Wed Oct  5 10:35   still running      zero.champlain.edu
+reboot   system boot  Wed Oct  5 10:35   still running      zero.champlain.edu
+shutdown system down  Wed Oct  5 10:34 - 10:35  (00:00)     zero.champlain.edu
+root     tty1         Wed Oct  5 10:24 - down   (00:09)     zero.champlain.edu
+runlevel (to lvl 3)   Wed Oct  5 10:24 - 10:34  (00:10)     zero.champlain.edu
+reboot   system boot  Wed Oct  5 10:24 - 10:34  (00:10)     zero.champlain.edu
+
+wtmp begins Wed Oct  5 10:24:21 2022
+### END last -adx ###
+
+### BEGIN cut -d: -f1 /etc/passwd ###
+
+root
+bin
+daemon
+adm
+lp
+sync
+shutdown
+halt
+mail
+operator
+games
+ftp
+nobody
+systemd-coredump
+dbus
+tss
+sssd
+sshd
+chrony
+systemd-oom
+super
+### END cut -d: -f1 /etc/passwd ###
+
+### BEGIN ps -ef ###
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 10:35 ?        00:00:01 /usr/lib/systemd/systemd --switched-root --system --deserialize 28
+root           2       0  0 10:35 ?        00:00:00 [kthreadd]
+root           3       2  0 10:35 ?        00:00:00 [rcu_gp]
+root           4       2  0 10:35 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 10:35 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 10:35 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 10:35 ?        00:00:00 [rcu_tasks_kthre]
+root          11       2  0 10:35 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 10:35 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 10:35 ?        00:00:00 [ksoftirqd/0]
+root          14       2  0 10:35 ?        00:00:00 [rcu_preempt]
+root          15       2  0 10:35 ?        00:00:00 [migration/0]
+root          16       2  0 10:35 ?        00:00:00 [cpuhp/0]
+root          18       2  0 10:35 ?        00:00:00 [kdevtmpfs]
+root          19       2  0 10:35 ?        00:00:00 [netns]
+root          20       2  0 10:35 ?        00:00:00 [inet_frag_wq]
+root          21       2  0 10:35 ?        00:00:00 [kauditd]
+root          22       2  0 10:35 ?        00:00:00 [khungtaskd]
+root          23       2  0 10:35 ?        00:00:00 [oom_reaper]
+root          24       2  0 10:35 ?        00:00:00 [writeback]
+root          25       2  0 10:35 ?        00:00:00 [kcompactd0]
+root          26       2  0 10:35 ?        00:00:00 [ksmd]
+root          27       2  0 10:35 ?        00:00:00 [khugepaged]
+root          28       2  0 10:35 ?        00:00:00 [cryptd]
+root          29       2  0 10:35 ?        00:00:00 [kintegrityd]
+root          30       2  0 10:35 ?        00:00:00 [kblockd]
+root          31       2  0 10:35 ?        00:00:00 [blkcg_punt_bio]
+root          32       2  0 10:35 ?        00:00:00 [tpm_dev_wq]
+root          33       2  0 10:35 ?        00:00:00 [md]
+root          34       2  0 10:35 ?        00:00:00 [edac-poller]
+root          35       2  0 10:35 ?        00:00:00 [watchdogd]
+root          37       2  0 10:35 ?        00:00:00 [kworker/0:1H-kblockd]
+root          38       2  0 10:35 ?        00:00:00 [kswapd0]
+root          39       2  0 10:35 ?        00:00:00 [kthrotld]
+root          41       2  0 10:35 ?        00:00:00 [kworker/0:2-xfs-conv/dm-0]
+root          43       2  0 10:35 ?        00:00:00 [acpi_thermal_pm]
+root          45       2  0 10:35 ?        00:00:00 [kmpath_rdacd]
+root          46       2  0 10:35 ?        00:00:00 [kaluad]
+root          47       2  0 10:35 ?        00:00:00 [mld]
+root          48       2  0 10:35 ?        00:00:00 [ipv6_addrconf]
+root          49       2  0 10:35 ?        00:00:00 [kstrp]
+root          64       2  0 10:35 ?        00:00:00 [zswap-shrink]
+root         177       2  0 10:35 ?        00:00:00 [kworker/u3:0]
+root         379       2  0 10:35 ?        00:00:00 [ata_sff]
+root         380       2  0 10:35 ?        00:00:00 [scsi_eh_0]
+root         381       2  0 10:35 ?        00:00:00 [scsi_tmf_0]
+root         382       2  0 10:35 ?        00:00:00 [scsi_eh_1]
+root         383       2  0 10:35 ?        00:00:00 [scsi_tmf_1]
+root         384       2  0 10:35 ?        00:00:00 [kworker/u2:3-events_unbound]
+root         451       2  0 10:35 ?        00:00:00 [kdmflush/253:0]
+root         460       2  0 10:35 ?        00:00:00 [kdmflush/253:1]
+root         478       2  0 10:35 ?        00:00:00 [xfsalloc]
+root         479       2  0 10:35 ?        00:00:00 [xfs_mru_cache]
+root         480       2  0 10:35 ?        00:00:00 [xfs-buf/dm-0]
+root         481       2  0 10:35 ?        00:00:00 [xfs-conv/dm-0]
+root         482       2  0 10:35 ?        00:00:00 [xfs-cil/dm-0]
+root         483       2  0 10:35 ?        00:00:00 [xfs-reclaim/dm-]
+root         484       2  0 10:35 ?        00:00:00 [xfs-gc/dm-0]
+root         485       2  0 10:35 ?        00:00:00 [xfs-log/dm-0]
+root         486       2  0 10:35 ?        00:00:00 [xfsaild/dm-0]
+root         582       1  0 10:35 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root         595       1  0 10:35 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root         596       2  0 10:35 ?        00:00:00 [xfs-buf/sda1]
+root         597       2  0 10:35 ?        00:00:00 [xfs-conv/sda1]
+root         598       2  0 10:35 ?        00:00:00 [xfs-cil/sda1]
+root         599       2  0 10:35 ?        00:00:00 [xfs-reclaim/sda]
+root         600       2  0 10:35 ?        00:00:00 [xfs-gc/sda1]
+root         601       2  0 10:35 ?        00:00:00 [xfs-log/sda1]
+root         602       2  0 10:35 ?        00:00:00 [xfsaild/sda1]
+root         620       1  0 10:35 ?        00:00:00 /sbin/auditd
+root         642       1  0 10:35 ?        00:00:01 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+root         644       1  0 10:35 ?        00:00:00 /usr/sbin/rsyslogd -n
+root         645       1  0 10:35 ?        00:00:00 /usr/lib/systemd/systemd-logind
+chrony       650       1  0 10:35 ?        00:00:00 /usr/sbin/chronyd -F 2
+dbus         655       1  0 10:35 ?        00:00:00 /usr/bin/dbus-broker-launch --scope system --audit
+dbus         658     655  0 10:35 ?        00:00:00 dbus-broker --log 4 --controller 9 --machine-id efea4806758c4e1cb78ee22b7e70bd33 --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+root         676       1  0 10:35 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         686       1  0 10:35 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         695       1  0 10:35 ?        00:00:00 /usr/sbin/crond -n
+root         696       1  0 10:35 ?        00:00:00 login -- root
+root         730       2  0 10:35 ?        00:00:00 [ttm_swap]
+root         733       2  0 10:35 ?        00:00:00 [irq/18-vmwgfx]
+root         734       2  0 10:35 ?        00:00:00 [card0-crtc0]
+root         735       2  0 10:35 ?        00:00:00 [card0-crtc1]
+root         737       2  0 10:35 ?        00:00:00 [card0-crtc2]
+root         738       2  0 10:35 ?        00:00:00 [card0-crtc3]
+root         739       2  0 10:35 ?        00:00:00 [card0-crtc4]
+root         741       2  0 10:35 ?        00:00:00 [card0-crtc5]
+root         742       2  0 10:35 ?        00:00:00 [card0-crtc6]
+root         744       2  0 10:35 ?        00:00:00 [card0-crtc7]
+root        3910       1  0 10:36 ?        00:00:00 /usr/lib/systemd/systemd --user
+root        3912    3910  0 10:36 ?        00:00:00 (sd-pam)
+root        3919     696  0 10:36 tty1     00:00:00 -bash
+root        4068       2  0 10:36 ?        00:00:00 [kworker/u2:4-events_unbound]
+root        4105       2  0 10:44 ?        00:00:00 [kworker/0:0-rcu_gp]
+root        4106     686  0 10:45 ?        00:00:00 sshd: super [priv]
+super       4111       1  0 10:45 ?        00:00:00 /usr/lib/systemd/systemd --user
+super       4113    4111  0 10:45 ?        00:00:00 (sd-pam)
+super       4120    4106  0 10:45 ?        00:00:00 sshd: super@notty
+root        4164       2  0 10:55 ?        00:00:00 [kworker/0:1-events]
+root        4222       2  0 10:57 ?        00:00:00 [kworker/0:3-events_power_efficient]
+root        4233       2  0 10:57 ?        00:00:00 [kworker/u2:0-writeback]
+super       4235    4120  0 10:59 ?        00:00:00 ps -ef
+### END ps -ef ###
+
+### BEGIN netstat -an --inet ###
+
+### END netstat -an --inet ###
+
+### BEGIN last -adx ###
+
+root     tty1         Wed Oct  5 10:36   still logged in    zero.champlain.edu
+runlevel (to lvl 3)   Wed Oct  5 10:35   still running      zero.champlain.edu
+reboot   system boot  Wed Oct  5 10:35   still running      zero.champlain.edu
+shutdown system down  Wed Oct  5 10:34 - 10:35  (00:00)     zero.champlain.edu
+root     tty1         Wed Oct  5 10:24 - down   (00:09)     zero.champlain.edu
+runlevel (to lvl 3)   Wed Oct  5 10:24 - 10:34  (00:10)     zero.champlain.edu
+reboot   system boot  Wed Oct  5 10:24 - 10:34  (00:10)     zero.champlain.edu
+
+wtmp begins Wed Oct  5 10:24:21 2022
+### END last -adx ###
+
+### BEGIN cut -d: -f1 /etc/passwd ###
+
+root
+bin
+daemon
+adm
+lp
+sync
+shutdown
+halt
+mail
+operator
+games
+ftp
+nobody
+systemd-coredump
+dbus
+tss
+sssd
+sshd
+chrony
+systemd-oom
+super
+### END cut -d: -f1 /etc/passwd ###
+

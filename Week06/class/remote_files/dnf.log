@@ -1,0 +1,424 @@
+2022-10-05T10:25:47-0400 INFO --- logging initialized ---
+2022-10-05T10:25:47-0400 DDEBUG timer: config: 18 ms
+2022-10-05T10:25:47-0400 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2022-10-05T10:25:47-0400 DEBUG YUM version: 4.10.0
+2022-10-05T10:25:47-0400 DDEBUG Command: yum update -y 
+2022-10-05T10:25:47-0400 DDEBUG Installroot: /
+2022-10-05T10:25:47-0400 DDEBUG Releasever: 9
+2022-10-05T10:25:47-0400 DEBUG cachedir: /var/cache/dnf
+2022-10-05T10:25:47-0400 DDEBUG Base command: update
+2022-10-05T10:25:47-0400 DDEBUG Extra commands: ['update', '-y']
+2022-10-05T10:25:47-0400 DEBUG User-Agent: constructed: 'libdnf (Rocky Linux 9.0; generic; Linux.x86_64)'
+2022-10-05T10:25:47-0400 DEBUG repo: downloading from remote: baseos
+2022-10-05T10:25:47-0400 DEBUG countme: no event for baseos: budget to spend: 3
+2022-10-05T10:25:49-0400 DEBUG baseos: using metadata from Mon 03 Oct 2022 11:40:13 AM EDT.
+2022-10-05T10:25:49-0400 DEBUG repo: downloading from remote: appstream
+2022-10-05T10:25:49-0400 DEBUG countme: no event for appstream: budget to spend: 2
+2022-10-05T10:25:53-0400 DEBUG appstream: using metadata from Mon 03 Oct 2022 11:40:28 AM EDT.
+2022-10-05T10:25:53-0400 DEBUG repo: downloading from remote: extras
+2022-10-05T10:25:53-0400 DEBUG countme: no event for extras: budget to spend: 2
+2022-10-05T10:25:54-0400 DEBUG extras: using metadata from Tue 30 Aug 2022 05:33:21 AM EDT.
+2022-10-05T10:25:54-0400 DDEBUG timer: sack setup: 6573 ms
+2022-10-05T10:25:54-0400 DEBUG Completion plugin: Generating completion cache...
+2022-10-05T10:25:55-0400 DEBUG --> Starting dependency resolution
+2022-10-05T10:25:55-0400 DEBUG ---> Package harfbuzz.x86_64 2.7.4-5.el9 will be installed
+2022-10-05T10:25:55-0400 DEBUG ---> Package graphite2.x86_64 1.3.14-9.el9 will be installed
+2022-10-05T10:25:55-0400 DEBUG ---> Package freetype.x86_64 2.10.4-6.el9 will be installed
+2022-10-05T10:25:55-0400 DEBUG ---> Package libpng.x86_64 2:1.6.37-12.el9 will be installed
+2022-10-05T10:25:55-0400 DEBUG ---> Package libevent.x86_64 2.1.12-6.el9 will be installed
+2022-10-05T10:25:55-0400 DEBUG ---> Package openldap-compat.x86_64 2.6.2-1.el9_0 will be installed
+2022-10-05T10:25:55-0400 DEBUG ---> Package kernel-modules.x86_64 5.14.0-70.26.1.el9_0 will be installed
+2022-10-05T10:25:55-0400 DEBUG ---> Package kernel-core.x86_64 5.14.0-70.26.1.el9_0 will be installed
+2022-10-05T10:25:55-0400 DEBUG ---> Package kernel.x86_64 5.14.0-70.26.1.el9_0 will be installed
+2022-10-05T10:25:55-0400 DEBUG ---> Package grub2-tools-extra.x86_64 1:2.06-27.el9_0.7.rocky.0.1 will be installed
+2022-10-05T10:25:55-0400 DEBUG ---> Package grub2-tools-efi.x86_64 1:2.06-27.el9_0.7.rocky.0.1 will be installed
+2022-10-05T10:25:55-0400 DEBUG ---> Package selinux-policy-targeted.noarch 34.1.29-1.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package selinux-policy-targeted.noarch 34.1.29-1.el9_0.2 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package selinux-policy.noarch 34.1.29-1.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package selinux-policy.noarch 34.1.29-1.el9_0.2 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package expat.x86_64 2.2.10-12.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package expat.x86_64 2.2.10-12.el9_0.2 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package libarchive.x86_64 3.5.3-1.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package libarchive.x86_64 3.5.3-2.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package libxml2.x86_64 2.9.13-1.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package libxml2.x86_64 2.9.13-1.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package openssl-libs.x86_64 1:3.0.1-20.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package openssl-libs.x86_64 1:3.0.1-41.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package openssl.x86_64 1:3.0.1-20.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package openssl.x86_64 1:3.0.1-41.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package pcre2-syntax.noarch 10.37-3.el9.1 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package pcre2-syntax.noarch 10.37-5.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package pcre2.x86_64 10.37-3.el9.1 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package pcre2.x86_64 10.37-5.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package dbus-broker.x86_64 28-5.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package dbus-broker.x86_64 28-5.1.el9 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package tzdata.noarch 2022a-1.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package tzdata.noarch 2022c-1.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package cryptsetup-libs.x86_64 2.4.3-4.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package cryptsetup-libs.x86_64 2.4.3-4.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package iproute-tc.x86_64 5.15.0-2.2.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package iproute-tc.x86_64 5.15.0-2.2.el9.0.2 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package iproute.x86_64 5.15.0-2.2.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package iproute.x86_64 5.15.0-2.2.el9.0.2 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package procps-ng.x86_64 3.3.17-4.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package procps-ng.x86_64 3.3.17-5.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package microcode_ctl.noarch 4:20220207-1.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package microcode_ctl.noarch 4:20220207-1.20220510.1.el9 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package rocky-release.noarch 9.0-2.1.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package rocky-release.noarch 9.0-2.3.el9 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package rocky-repos.noarch 9.0-2.1.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package rocky-repos.noarch 9.0-2.3.el9 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package rocky-gpg-keys.noarch 9.0-2.1.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package rocky-gpg-keys.noarch 9.0-2.3.el9 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package libgcrypt.x86_64 1.10.0-2.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package libgcrypt.x86_64 1.10.0-5.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package gnupg2.x86_64 2.3.3-1.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package gnupg2.x86_64 2.3.3-2.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package ca-certificates.noarch 2020.2.50-94.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package ca-certificates.noarch 2022.2.54-90.2.el9 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package chrony.x86_64 4.1-3.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package chrony.x86_64 4.1-3.el9.rocky.0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package grub2-common.noarch 1:2.06-27.el9_0.7 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package grub2-common.noarch 1:2.06-27.el9_0.7.rocky.0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package openssh-server.x86_64 8.7p1-8.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package openssh-server.x86_64 8.7p1-10.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package openssh-clients.x86_64 8.7p1-8.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package openssh-clients.x86_64 8.7p1-10.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package openssh.x86_64 8.7p1-8.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package openssh.x86_64 8.7p1-10.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package sssd-kcm.x86_64 2.6.2-4.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package sssd-kcm.x86_64 2.6.2-4.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package sssd-common.x86_64 2.6.2-4.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package sssd-common.x86_64 2.6.2-4.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package sssd-client.x86_64 2.6.2-4.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package sssd-client.x86_64 2.6.2-4.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package libsss_sudo.x86_64 2.6.2-4.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package libsss_sudo.x86_64 2.6.2-4.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package libsss_nss_idmap.x86_64 2.6.2-4.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package libsss_nss_idmap.x86_64 2.6.2-4.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package libsss_idmap.x86_64 2.6.2-4.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package libsss_idmap.x86_64 2.6.2-4.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package libsss_certmap.x86_64 2.6.2-4.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package libsss_certmap.x86_64 2.6.2-4.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package systemd-udev.x86_64 250-6.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package systemd-udev.x86_64 250-6.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package systemd-rpm-macros.noarch 250-6.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package systemd-rpm-macros.noarch 250-6.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package systemd-pam.x86_64 250-6.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package systemd-pam.x86_64 250-6.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package systemd-libs.x86_64 250-6.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package systemd-libs.x86_64 250-6.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package systemd.x86_64 250-6.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package systemd.x86_64 250-6.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package libcurl.x86_64 7.76.1-14.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package libcurl.x86_64 7.76.1-14.el9_0.5 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package curl.x86_64 7.76.1-14.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package curl.x86_64 7.76.1-14.el9_0.5 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package openldap.x86_64 2.4.59-4.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package openldap.x86_64 2.6.2-1.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package kernel-tools-libs.x86_64 5.14.0-70.13.1.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package kernel-tools-libs.x86_64 5.14.0-70.26.1.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package kernel-tools.x86_64 5.14.0-70.13.1.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package kernel-tools.x86_64 5.14.0-70.26.1.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package grub2-pc-modules.noarch 1:2.06-27.el9_0.7 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package grub2-pc-modules.noarch 1:2.06-27.el9_0.7.rocky.0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package grub2-tools-minimal.x86_64 1:2.06-27.el9_0.7 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package grub2-tools-minimal.x86_64 1:2.06-27.el9_0.7.rocky.0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package grub2-tools.x86_64 1:2.06-27.el9_0.7 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package grub2-tools.x86_64 1:2.06-27.el9_0.7.rocky.0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package grub2-pc.x86_64 1:2.06-27.el9_0.7 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package grub2-pc.x86_64 1:2.06-27.el9_0.7.rocky.0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package pam.x86_64 1.5.1-9.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package pam.x86_64 1.5.1-9.el9_0.1 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package vim-minimal.x86_64 2:8.2.2637-15.el9 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package vim-minimal.x86_64 2:8.2.2637-16.el9_0.3 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package glibc-langpack-en.x86_64 2.34-28.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package glibc-langpack-en.x86_64 2.34-28.el9_0.2 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package glibc-gconv-extra.x86_64 2.34-28.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package glibc-gconv-extra.x86_64 2.34-28.el9_0.2 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package glibc-common.x86_64 2.34-28.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package glibc-common.x86_64 2.34-28.el9_0.2 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package glibc.x86_64 2.34-28.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package glibc.x86_64 2.34-28.el9_0.2 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package NetworkManager-tui.x86_64 1:1.36.0-4.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package NetworkManager-tui.x86_64 1:1.36.0-5.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package NetworkManager-team.x86_64 1:1.36.0-4.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package NetworkManager-team.x86_64 1:1.36.0-5.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package NetworkManager-libnm.x86_64 1:1.36.0-4.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package NetworkManager-libnm.x86_64 1:1.36.0-5.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package NetworkManager.x86_64 1:1.36.0-4.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package NetworkManager.x86_64 1:1.36.0-5.el9_0 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package python3-libdnf.x86_64 0.65.0-5.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package python3-libdnf.x86_64 0.65.0-5.1.el9 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package python3-hawkey.x86_64 0.65.0-5.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package python3-hawkey.x86_64 0.65.0-5.1.el9 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG ---> Package libdnf.x86_64 0.65.0-5.el9_0 will be upgraded
+2022-10-05T10:25:55-0400 DEBUG ---> Package libdnf.x86_64 0.65.0-5.1.el9 will be an upgrade
+2022-10-05T10:25:55-0400 DEBUG --> Finished dependency resolution
+2022-10-05T10:25:55-0400 DDEBUG timer: depsolve: 101 ms
+2022-10-05T10:25:55-0400 INFO Dependencies resolved.
+2022-10-05T10:25:55-0400 INFO ====================================================================================================
+ Package                       Architecture Version                              Repository    Size
+====================================================================================================
+Installing:
+ [1m[32mkernel                       [m x86_64       5.14.0-70.26.1.el9_0                 baseos       625 k
+Upgrading:
+ [1m[32mNetworkManager               [m x86_64       1:1.36.0-5.el9_0                     baseos       2.1 M
+ [1m[32mNetworkManager-libnm         [m x86_64       1:1.36.0-5.el9_0                     baseos       1.6 M
+ [1m[32mNetworkManager-team          [m x86_64       1:1.36.0-5.el9_0                     baseos        32 k
+ [1m[32mNetworkManager-tui           [m x86_64       1:1.36.0-5.el9_0                     baseos       225 k
+ [1m[32mca-certificates              [m noarch       2022.2.54-90.2.el9                   baseos       823 k
+ [1m[32mchrony                       [m x86_64       4.1-3.el9.rocky.0.1                  baseos       304 k
+ [1m[32mcryptsetup-libs              [m x86_64       2.4.3-4.el9_0.1                      baseos       433 k
+ [1m[32mcurl                         [m x86_64       7.76.1-14.el9_0.5                    baseos       296 k
+ [1m[32mdbus-broker                  [m x86_64       28-5.1.el9                           baseos       171 k
+ [1m[32mexpat                        [m x86_64       2.2.10-12.el9_0.2                    baseos       105 k
+ [1m[32mglibc                        [m x86_64       2.34-28.el9_0.2                      baseos       1.9 M
+ [1m[32mglibc-common                 [m x86_64       2.34-28.el9_0.2                      baseos       289 k
+ [1m[32mglibc-gconv-extra            [m x86_64       2.34-28.el9_0.2                      baseos       1.5 M
+ [1m[32mglibc-langpack-en            [m x86_64       2.34-28.el9_0.2                      baseos       558 k
+ [1m[32mgnupg2                       [m x86_64       2.3.3-2.el9_0                        baseos       2.5 M
+ [1m[32mgrub2-common                 [m noarch       1:2.06-27.el9_0.7.rocky.0.1          baseos       904 k
+ [1m[32mgrub2-pc                     [m x86_64       1:2.06-27.el9_0.7.rocky.0.1          baseos        14 k
+ [1m[32mgrub2-pc-modules             [m noarch       1:2.06-27.el9_0.7.rocky.0.1          baseos       907 k
+ [1m[32mgrub2-tools                  [m x86_64       1:2.06-27.el9_0.7.rocky.0.1          baseos       1.8 M
+ [1m[32mgrub2-tools-minimal          [m x86_64       1:2.06-27.el9_0.7.rocky.0.1          baseos       601 k
+ [1m[32miproute                      [m x86_64       5.15.0-2.2.el9.0.2                   baseos       740 k
+ [1m[32miproute-tc                   [m x86_64       5.15.0-2.2.el9.0.2                   baseos       444 k
+ [1m[32mkernel-tools                 [m x86_64       5.14.0-70.26.1.el9_0                 baseos       845 k
+ [1m[32mkernel-tools-libs            [m x86_64       5.14.0-70.26.1.el9_0                 baseos       635 k
+ [1m[32mlibarchive                   [m x86_64       3.5.3-2.el9_0                        baseos       389 k
+ [1m[32mlibcurl                      [m x86_64       7.76.1-14.el9_0.5                    baseos       286 k
+ [1m[32mlibdnf                       [m x86_64       0.65.0-5.1.el9                       baseos       643 k
+ [1m[32mlibgcrypt                    [m x86_64       1.10.0-5.el9_0                       baseos       509 k
+ [1m[32mlibsss_certmap               [m x86_64       2.6.2-4.el9_0.1                      baseos        75 k
+ [1m[32mlibsss_idmap                 [m x86_64       2.6.2-4.el9_0.1                      baseos        38 k
+ [1m[32mlibsss_nss_idmap             [m x86_64       2.6.2-4.el9_0.1                      baseos        40 k
+ [1m[32mlibsss_sudo                  [m x86_64       2.6.2-4.el9_0.1                      baseos        31 k
+ [1m[32mlibxml2                      [m x86_64       2.9.13-1.el9_0.1                     baseos       746 k
+ [1m[32mmicrocode_ctl                [m noarch       4:20220207-1.20220510.1.el9          baseos       5.7 M
+ [1m[32mopenldap                     [m x86_64       2.6.2-1.el9_0                        baseos       254 k
+ [1m[32mopenssh                      [m x86_64       8.7p1-10.el9_0                       baseos       450 k
+ [1m[32mopenssh-clients              [m x86_64       8.7p1-10.el9_0                       baseos       699 k
+ [1m[32mopenssh-server               [m x86_64       8.7p1-10.el9_0                       baseos       451 k
+ [1m[32mopenssl                      [m x86_64       1:3.0.1-41.el9_0                     baseos       1.1 M
+ [1m[32mopenssl-libs                 [m x86_64       1:3.0.1-41.el9_0                     baseos       2.1 M
+ [1m[32mpam                          [m x86_64       1.5.1-9.el9_0.1                      baseos       540 k
+ [1m[32mpcre2                        [m x86_64       10.37-5.el9_0                        baseos       229 k
+ [1m[32mpcre2-syntax                 [m noarch       10.37-5.el9_0                        baseos       139 k
+ [1m[32mprocps-ng                    [m x86_64       3.3.17-5.el9_0                       baseos       329 k
+ [1m[32mpython3-hawkey               [m x86_64       0.65.0-5.1.el9                       baseos       106 k
+ [1m[32mpython3-libdnf               [m x86_64       0.65.0-5.1.el9                       baseos       775 k
+ [1m[32mrocky-gpg-keys               [m noarch       9.0-2.3.el9                          baseos        12 k
+ [1m[32mrocky-release                [m noarch       9.0-2.3.el9                          baseos        22 k
+ [1m[32mrocky-repos                  [m noarch       9.0-2.3.el9                          baseos        12 k
+ [1m[32mselinux-policy               [m noarch       34.1.29-1.el9_0.2                    baseos        55 k
+ [1m[32mselinux-policy-targeted      [m noarch       34.1.29-1.el9_0.2                    baseos       6.3 M
+ [1m[32msssd-client                  [m x86_64       2.6.2-4.el9_0.1                      baseos       143 k
+ [1m[32msssd-common                  [m x86_64       2.6.2-4.el9_0.1                      baseos       1.5 M
+ [1m[32msssd-kcm                     [m x86_64       2.6.2-4.el9_0.1                      baseos       103 k
+ [1m[32msystemd                      [m x86_64       250-6.el9_0.1                        baseos       4.0 M
+ [1m[32msystemd-libs                 [m x86_64       250-6.el9_0.1                        baseos       613 k
+ [1m[32msystemd-pam                  [m x86_64       250-6.el9_0.1                        baseos       239 k
+ [1m[32msystemd-rpm-macros           [m noarch       250-6.el9_0.1                        baseos        24 k
+ [1m[32msystemd-udev                 [m x86_64       250-6.el9_0.1                        baseos       1.5 M
+ [1m[32mtzdata                       [m noarch       2022c-1.el9_0                        baseos       429 k
+ [1m[32mvim-minimal                  [m x86_64       2:8.2.2637-16.el9_0.3                baseos       680 k
+Installing dependencies:
+ [1m[32mfreetype                     [m x86_64       2.10.4-6.el9                         baseos       387 k
+ [1m[32mgraphite2                    [m x86_64       1.3.14-9.el9                         baseos        94 k
+ [1m[32mgrub2-tools-efi              [m x86_64       1:2.06-27.el9_0.7.rocky.0.1          baseos       539 k
+ [1m[32mgrub2-tools-extra            [m x86_64       1:2.06-27.el9_0.7.rocky.0.1          baseos       836 k
+ [1m[32mharfbuzz                     [m x86_64       2.7.4-5.el9                          baseos       625 k
+ [1m[32mkernel-core                  [m x86_64       5.14.0-70.26.1.el9_0                 baseos        34 M
+ [1m[32mkernel-modules               [m x86_64       5.14.0-70.26.1.el9_0                 baseos        21 M
+ [1m[32mlibevent                     [m x86_64       2.1.12-6.el9                         baseos       261 k
+ [1m[32mlibpng                       [m x86_64       2:1.6.37-12.el9                      baseos       116 k
+ [1m[32mopenldap-compat              [m x86_64       2.6.2-1.el9_0                        baseos        17 k
+
+Transaction Summary
+====================================================================================================
+Install  11 Packages
+Upgrade  61 Packages
+
+2022-10-05T10:25:55-0400 INFO Total download size: 109 M
+2022-10-05T10:25:55-0400 INFO Downloading Packages:
+2022-10-05T10:26:14-0400 INFO ----------------------------------------------------------------------------------------------------
+2022-10-05T10:26:14-0400 INFO Total                                                               5.7 MB/s | 109 MB     00:19     
+2022-10-05T10:26:14-0400 DEBUG Using rpmkeys executable at /bin/rpmkeys to verify signatures
+2022-10-05T10:26:14-0400 CRITICAL Importing GPG key 0x350D275D:
+ Userid     : "Rocky Enterprise Software Foundation - Release key 2022 <releng@rockylinux.org>"
+ Fingerprint: 21CB 256A E16F C54C 6E65 2949 702D 426D 350D 275D
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
+2022-10-05T10:26:14-0400 INFO Key imported successfully
+2022-10-05T10:26:18-0400 INFO Running transaction check
+2022-10-05T10:26:19-0400 INFO Transaction check succeeded.
+2022-10-05T10:26:19-0400 INFO Running transaction test
+2022-10-05T10:26:23-0400 INFO Transaction test succeeded.
+2022-10-05T10:26:23-0400 DDEBUG timer: transaction test: 3319 ms
+2022-10-05T10:26:23-0400 INFO Running transaction
+2022-10-05T10:26:23-0400 DEBUG RPMDB altered outside of YUM.
+2022-10-05T10:26:23-0400 DDEBUG RPM transaction start.
+2022-10-05T10:31:33-0400 DDEBUG RPM transaction over.
+2022-10-05T10:31:34-0400 DDEBUG timer: verify transaction: 588 ms
+2022-10-05T10:31:34-0400 DDEBUG timer: transaction: 311292 ms
+2022-10-05T10:31:34-0400 DEBUG Completion plugin: Generating completion cache...
+2022-10-05T10:31:34-0400 DEBUG Upgraded: NetworkManager-1:1.36.0-5.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: NetworkManager-libnm-1:1.36.0-5.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: NetworkManager-team-1:1.36.0-5.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: NetworkManager-tui-1:1.36.0-5.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: ca-certificates-2022.2.54-90.2.el9.noarch
+2022-10-05T10:31:34-0400 DEBUG Upgraded: chrony-4.1-3.el9.rocky.0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: cryptsetup-libs-2.4.3-4.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: curl-7.76.1-14.el9_0.5.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: dbus-broker-28-5.1.el9.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: expat-2.2.10-12.el9_0.2.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: glibc-2.34-28.el9_0.2.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: glibc-common-2.34-28.el9_0.2.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: glibc-gconv-extra-2.34-28.el9_0.2.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: glibc-langpack-en-2.34-28.el9_0.2.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: gnupg2-2.3.3-2.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: grub2-common-1:2.06-27.el9_0.7.rocky.0.1.noarch
+2022-10-05T10:31:34-0400 DEBUG Upgraded: grub2-pc-1:2.06-27.el9_0.7.rocky.0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: grub2-pc-modules-1:2.06-27.el9_0.7.rocky.0.1.noarch
+2022-10-05T10:31:34-0400 DEBUG Upgraded: grub2-tools-1:2.06-27.el9_0.7.rocky.0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: grub2-tools-minimal-1:2.06-27.el9_0.7.rocky.0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: iproute-5.15.0-2.2.el9.0.2.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: iproute-tc-5.15.0-2.2.el9.0.2.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: kernel-tools-5.14.0-70.26.1.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: kernel-tools-libs-5.14.0-70.26.1.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: libarchive-3.5.3-2.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: libcurl-7.76.1-14.el9_0.5.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: libdnf-0.65.0-5.1.el9.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: libgcrypt-1.10.0-5.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: libsss_certmap-2.6.2-4.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: libsss_idmap-2.6.2-4.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: libsss_nss_idmap-2.6.2-4.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: libsss_sudo-2.6.2-4.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: libxml2-2.9.13-1.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: microcode_ctl-4:20220207-1.20220510.1.el9.noarch
+2022-10-05T10:31:34-0400 DEBUG Upgraded: openldap-2.6.2-1.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: openssh-8.7p1-10.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: openssh-clients-8.7p1-10.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: openssh-server-8.7p1-10.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: openssl-1:3.0.1-41.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: openssl-libs-1:3.0.1-41.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: pam-1.5.1-9.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: pcre2-10.37-5.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: pcre2-syntax-10.37-5.el9_0.noarch
+2022-10-05T10:31:34-0400 DEBUG Upgraded: procps-ng-3.3.17-5.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: python3-hawkey-0.65.0-5.1.el9.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: python3-libdnf-0.65.0-5.1.el9.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: rocky-gpg-keys-9.0-2.3.el9.noarch
+2022-10-05T10:31:34-0400 DEBUG Upgraded: rocky-release-9.0-2.3.el9.noarch
+2022-10-05T10:31:34-0400 DEBUG Upgraded: rocky-repos-9.0-2.3.el9.noarch
+2022-10-05T10:31:34-0400 DEBUG Upgraded: selinux-policy-34.1.29-1.el9_0.2.noarch
+2022-10-05T10:31:34-0400 DEBUG Upgraded: selinux-policy-targeted-34.1.29-1.el9_0.2.noarch
+2022-10-05T10:31:34-0400 DEBUG Upgraded: sssd-client-2.6.2-4.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: sssd-common-2.6.2-4.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: sssd-kcm-2.6.2-4.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: systemd-250-6.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: systemd-libs-250-6.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: systemd-pam-250-6.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: systemd-rpm-macros-250-6.el9_0.1.noarch
+2022-10-05T10:31:34-0400 DEBUG Upgraded: systemd-udev-250-6.el9_0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Upgraded: tzdata-2022c-1.el9_0.noarch
+2022-10-05T10:31:34-0400 DEBUG Upgraded: vim-minimal-2:8.2.2637-16.el9_0.3.x86_64
+2022-10-05T10:31:34-0400 DEBUG Installed: freetype-2.10.4-6.el9.x86_64
+2022-10-05T10:31:34-0400 DEBUG Installed: graphite2-1.3.14-9.el9.x86_64
+2022-10-05T10:31:34-0400 DEBUG Installed: grub2-tools-efi-1:2.06-27.el9_0.7.rocky.0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Installed: grub2-tools-extra-1:2.06-27.el9_0.7.rocky.0.1.x86_64
+2022-10-05T10:31:34-0400 DEBUG Installed: harfbuzz-2.7.4-5.el9.x86_64
+2022-10-05T10:31:34-0400 DEBUG Installed: kernel-5.14.0-70.26.1.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Installed: kernel-core-5.14.0-70.26.1.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Installed: kernel-modules-5.14.0-70.26.1.el9_0.x86_64
+2022-10-05T10:31:34-0400 DEBUG Installed: libevent-2.1.12-6.el9.x86_64
+2022-10-05T10:31:34-0400 DEBUG Installed: libpng-2:1.6.37-12.el9.x86_64
+2022-10-05T10:31:34-0400 DEBUG Installed: openldap-compat-2.6.2-1.el9_0.x86_64
+2022-10-05T10:31:34-0400 INFO Complete!
+2022-10-05T10:31:34-0400 DDEBUG Cleaning up.
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/iproute-tc-5.15.0-2.2.el9.0.2.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/NetworkManager-tui-1.36.0-5.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/rocky-gpg-keys-9.0-2.3.el9.noarch.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/gnupg2-2.3.3-2.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/libgcrypt-1.10.0-5.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/grub2-common-2.06-27.el9_0.7.rocky.0.1.noarch.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/systemd-libs-250-6.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/curl-7.76.1-14.el9_0.5.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/libsss_nss_idmap-2.6.2-4.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/libpng-1.6.37-12.el9.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/rocky-repos-9.0-2.3.el9.noarch.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/dbus-broker-28-5.1.el9.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/openssl-3.0.1-41.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/glibc-gconv-extra-2.34-28.el9_0.2.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/systemd-pam-250-6.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/pam-1.5.1-9.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/selinux-policy-targeted-34.1.29-1.el9_0.2.noarch.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/libcurl-7.76.1-14.el9_0.5.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/systemd-udev-250-6.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/cryptsetup-libs-2.4.3-4.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/grub2-pc-2.06-27.el9_0.7.rocky.0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/openldap-compat-2.6.2-1.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/grub2-tools-efi-2.06-27.el9_0.7.rocky.0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/ca-certificates-2022.2.54-90.2.el9.noarch.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/kernel-5.14.0-70.26.1.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/microcode_ctl-20220207-1.20220510.1.el9.noarch.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/grub2-pc-modules-2.06-27.el9_0.7.rocky.0.1.noarch.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/grub2-tools-2.06-27.el9_0.7.rocky.0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/openldap-2.6.2-1.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/grub2-tools-minimal-2.06-27.el9_0.7.rocky.0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/glibc-common-2.34-28.el9_0.2.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/expat-2.2.10-12.el9_0.2.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/libsss_certmap-2.6.2-4.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/kernel-core-5.14.0-70.26.1.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/freetype-2.10.4-6.el9.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/openssh-server-8.7p1-10.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/graphite2-1.3.14-9.el9.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/libxml2-2.9.13-1.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/openssl-libs-3.0.1-41.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/pcre2-10.37-5.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/systemd-rpm-macros-250-6.el9_0.1.noarch.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/glibc-2.34-28.el9_0.2.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/python3-hawkey-0.65.0-5.1.el9.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/kernel-modules-5.14.0-70.26.1.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/openssh-8.7p1-10.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/kernel-tools-libs-5.14.0-70.26.1.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/libdnf-0.65.0-5.1.el9.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/iproute-5.15.0-2.2.el9.0.2.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/sssd-common-2.6.2-4.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/libsss_idmap-2.6.2-4.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/kernel-tools-5.14.0-70.26.1.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/NetworkManager-team-1.36.0-5.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/vim-minimal-8.2.2637-16.el9_0.3.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/sssd-client-2.6.2-4.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/libarchive-3.5.3-2.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/NetworkManager-libnm-1.36.0-5.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/libevent-2.1.12-6.el9.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/chrony-4.1-3.el9.rocky.0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/grub2-tools-extra-2.06-27.el9_0.7.rocky.0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/harfbuzz-2.7.4-5.el9.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/rocky-release-9.0-2.3.el9.noarch.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/systemd-250-6.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/procps-ng-3.3.17-5.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/tzdata-2022c-1.el9_0.noarch.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/selinux-policy-34.1.29-1.el9_0.2.noarch.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/sssd-kcm-2.6.2-4.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/libsss_sudo-2.6.2-4.el9_0.1.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/NetworkManager-1.36.0-5.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/openssh-clients-8.7p1-10.el9_0.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/python3-libdnf-0.65.0-5.1.el9.x86_64.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/pcre2-syntax-10.37-5.el9_0.noarch.rpm removed
+2022-10-05T10:31:34-0400 DDEBUG /var/cache/dnf/baseos-522ed8e2b2f761ff/packages/glibc-langpack-en-2.34-28.el9_0.2.x86_64.rpm removed
+2022-10-05T11:23:24-0400 INFO --- logging initialized ---
+2022-10-05T11:23:24-0400 DDEBUG timer: config: 10 ms
+2022-10-05T11:23:24-0400 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2022-10-05T11:23:24-0400 DEBUG DNF version: 4.10.0
+2022-10-05T11:23:24-0400 DDEBUG Command: dnf makecache --timer 
+2022-10-05T11:23:24-0400 DDEBUG Installroot: /
+2022-10-05T11:23:24-0400 DDEBUG Releasever: 9
+2022-10-05T11:23:24-0400 DEBUG cachedir: /var/cache/dnf
+2022-10-05T11:23:24-0400 DDEBUG Base command: makecache
+2022-10-05T11:23:24-0400 DDEBUG Extra commands: ['makecache', '--timer']
+2022-10-05T11:23:24-0400 DEBUG Making cache files for all metadata files.
+2022-10-05T11:23:24-0400 INFO Metadata timer caching disabled when running on a battery.
+2022-10-05T11:23:24-0400 DDEBUG Cleaning up.
