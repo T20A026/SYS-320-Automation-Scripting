@@ -19,7 +19,7 @@ parser = argparse.ArgumentParser(
 
 # Add an arguments to the fs.py program
 parser.add_argument("-d", "--directory", required="True", help="Directory that you want to traverse.")
-parser.add_argument("-s", "--search", required="True", help="Specify Search Terms: 'SHELL', 'SQL', 'TRV', 'CMS'")
+parser.add_argument("-s", "--search", required="True", help="Specify Search Terms: 'powershell', 'javaSearch', 'reg'")
 
 # parse the arguments
 args = parser.parse_args()
