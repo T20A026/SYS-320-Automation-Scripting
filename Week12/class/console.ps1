@@ -17,7 +17,7 @@ while ($true) {
 }
 #>
 
-Set-SCPItem -Computername '10.0.0.4' -Credential (Get-Credential root) `
+Set-SCPItem -Computername '10.0.0.46' -Credential (Get-Credential root) `
 -Destination '/home' -Path 'C:\Users\abija\Documents\VisualStudio\SYS-320-Automation\Week12\class\meme.jpg'
 
 #Remove-SSHSession -SessionId 0
